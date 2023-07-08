@@ -1,0 +1,11 @@
+1.Destructuring Arrays:
+
+->To destructure an array, you enclose the target variables within square brackets ([]). The order of the variables matches the corresponding elements of the array.
+
+2.Destructuring Objects:
+
+->To destructure an object, you enclose the target variables within curly braces ({}). The variable names must match the object's property names.
+
+3.Destructuring with Default Values:
+
+->You can also provide default values for variables in case the corresponding value is undefined.

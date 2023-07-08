@@ -1,0 +1,20 @@
+1.Return Value:
+
+ map(): 
+->The map() method returns a new array containing the results of applying a provided function to each element of the original array. It creates a new array with the same length as the original array.
+forEach(): 
+->The forEach() method does not return anything. It simply iterates over the array and executes a provided function for each element.
+
+2.Modification of Original Array:
+
+map(): 
+->The map() method does not modify the original array. It creates a new array with the transformed values based on the provided function.
+forEach(): 
+->The forEach() method also does not modify the original array. It iterates over the array and performs operations on each element, but it does not create a new array.
+
+3.Usage and Purpose:
+
+map(): 
+->The map() method is used when you want to transform each element of an array and generate a new array with the transformed values. It is commonly used when you need to perform a one-to-one mapping between elements of an array.
+forEach(): 
+->The forEach() method is used when you want to perform some operation or side effect on each element of an array. It is useful when you want to iterate over an array without creating a new array or when you want to perform an action for each element, such as logging or updating a variable

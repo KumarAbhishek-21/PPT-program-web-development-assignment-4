@@ -1,0 +1,21 @@
+1.Mutable vs. Immutable:
+
+->Variables declared with let are mutable, meaning their values can be reassigned or modified.
+->Variables declared with const are immutable, meaning their values cannot be reassigned once they are assigned.
+Scoping:
+
+->Both let and const have block scope. They are only accessible within the nearest enclosing block, such as a loop or an if statement.
+
+2.Hoisting:
+
+->Variables declared with let and const are hoisted to the top of their scope during the compilation phase, similar to var variables. However, they enter the temporal dead zone until they are declared. Accessing a variable during this dead zone results in a ReferenceError.
+
+3.Initialization:
+
+->Variables declared with let do not require an initial value. They can be declared without assignment and assigned later.
+->Variables declared with const must be assigned an initial value at the time of declaration. Once assigned, their value cannot be changed.
+
+4.Redeclaration:
+
+->Variables declared with let can be redeclared within the same scope, but not with the same name.
+->Variables declared with const cannot be redeclared within the same scope. Each const variable must have a unique name within its scope

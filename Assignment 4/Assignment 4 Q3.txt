@@ -1,0 +1,19 @@
+1.SCOPINNG:
+
+->Variables declared with var have function scope or global scope, meaning they are accessible throughout the entire function or global   environment.
+->Variables declared with let have block scope, meaning they are only accessible within the nearest enclosing block, such as a loop or an if statement.
+
+2.HOSTING:
+
+->Variables declared with var are hoisted to the top of their scope during the compilation phase. This means you can access and use var variables before their actual declaration, although they will have an initial value of undefined.
+->Variables declared with let are also hoisted, but they enter the temporal dead zone until they are declared. Accessing a let variable before its declaration results in a ReferenceError.
+
+3.REDECLARATION:
+
+->Variables declared with var can be redeclared within the same scope without any issues. The subsequent declarations are simply ignored.
+->Variables declared with let cannot be redeclared within the same scope. If you attempt to redeclare a let variable, it will result in a SyntaxError.
+
+4.GLOBAL SCOPE BEHAVIOUR:
+
+->Variables declared with var in the global scope become properties of the global object (e.g., window in a browser environment or global in Node.js).
+->Variables declared with let in the global scope do not become properties of the global object. They are limited to the scope in which they are declared

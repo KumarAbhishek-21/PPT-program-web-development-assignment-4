@@ -1,0 +1,7 @@
+In ECMAScript 6 (ES6), you can define default parameter values for function parameters, allowing you to assign a default value that will be used if the argument is not provided or is explicitly set as undefined. 
+
+1.Default values are assigned when the argument is undefined or not provided. Values such as null, false, 0, or an empty string ('') are considered valid arguments and will not trigger the default value.
+
+2.Default parameter values can be expressions or function calls, allowing you to compute the default value dynamically.
+
+3.Default parameter values can depend on previous parameters in the function signature. Parameters are evaluated from left to right.

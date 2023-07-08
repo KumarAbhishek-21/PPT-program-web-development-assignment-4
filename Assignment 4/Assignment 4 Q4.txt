@@ -1,0 +1,23 @@
+1.Arrow Functions:
+
+->Arrow functions provide a concise syntax for writing anonymous functions, with implicit this binding and simplified function syntax.
+
+2.Block-Scoped Variables:
+
+->The let and const keywords were introduced for declaring block-scoped variables, offering more predictable scoping behavior compared to var.
+
+3.Template Literals:
+
+->Template literals allow the creation of multi-line strings and string interpolation using backticks () instead of single or double quotes. They also support embedded expressions using ${}`.
+
+4.Destructuring Assignment:
+
+->Destructuring assignment provides an elegant way to extract values from arrays or objects into distinct variables, simplifying the process of working with complex data structures.
+
+5.Default Parameters:
+
+->Default function parameters allow developers to specify default values for function parameters, which are used when the arguments are not provided or are explicitly set as undefined.
+
+6.Rest Parameters:
+
+->Rest parameters allow functions to accept an indefinite number of arguments as an array, using the spread syntax (...), making it easier to work with variadic functions

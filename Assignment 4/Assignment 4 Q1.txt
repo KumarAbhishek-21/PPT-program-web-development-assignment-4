@@ -1,0 +1,3 @@
+Hoisting is a term used in JavaScript to describe the behavior of variable and function declarations being moved to the top of their containing scope during the compilation phase, before the code is executed. This means that you can use variables and call functions before they are actually declared in your code.
+
+In JavaScript, when the code is executed, the JavaScript engine goes through two main phases: the compilation phase and the execution phase. During the compilation phase, the JavaScript engine scans the entire code and identifies variable and function declarations and assigns them memory space.
